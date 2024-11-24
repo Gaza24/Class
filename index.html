@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول وروابط تاسع ك</title>
+    <style>
+        /* إعدادات عامة */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background-color: #121212;
+            text-align: center;
+        }
+
+        /* تأثيرات العنوان */
+        header {
+            padding: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff5722, #ff9800);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: glow 2s infinite alternate;
+        }
+
+        /* تأثير على الصورة */
+        .image-container img {
+            margin: 20px auto;
+            max-width: 50%;
+            border-radius: 15px;
+            box-shadow: 0 0 15px #ff9800;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px #ff5722;
+        }
+
+        /* الزر مع التأثيرات */
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px auto;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffffff;
+            background: linear-gradient(45deg, #ff9800, #ff5722);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 0 15px #ff5722;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px #ff9800;
+        }
+
+        /* الرسالة */
+        .message {
+            display: none;
+            margin-top: 20px;
+            font-size: 1rem;
+            background-color: #212121;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px #ff5722;
+        }
+
+        /* الفوتر */
+        footer {
+            margin-top: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ff5722;
+            text-shadow: 0 0 10px #ff9800;
+            animation: pulse 2s infinite;
+        }
+
+        /* تأثيرات التحريك */
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ff5722, 0 0 20px #ff9800;
+            }
+            to {
+                text-shadow: 0 0 20px #ff9800, 0 0 30px #ff5722;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                text-shadow: 0 0 10px #ff9800, 0 0 20px #ff5722;
+            }
+            50% {
+                text-shadow: 0 0 20px #ff9800, 0 0 30px #ff5722;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>جدول وروابط تاسع ك</header>
+
+    <div class="image-container">
+        <img src="lol.png" alt="صورة جدول">
+    </div>
+
+    <button class="button" onclick="showMessage()">عرض الجدول</button>
+
+    <div class="message" id="message">
+        <p>الصف التاسع ك</p>
+        <p>عربي: مس رغدة<br><a href="https://2u.pw/mv1cOM0K" target="_blank">https://2u.pw/mv1cOM0K</a></p>
+        <p>إنجليزي: مس حنان ربيع<br><a href="https://2u.pw/Bf3LtvgE" target="_blank">https://2u.pw/Bf3LtvgE</a></p>
+        <p>رياضيات: مس رنده<br><a href="https://2u.pw/RjWJhNfW" target="_blank">https://2u.pw/RjWJhNfW</a></p>
+        <p>تكنولوجيا: أ. مجد<br><a href="https://2u.pw/QzSLr8oc" target="_blank">https://2u.pw/QzSLr8oc</a></p>
+        <p>دين: أ. ناصر<br><a href="https://urlshort.app/HIEBNO" target="_blank">https://urlshort.app/HIEBNO</a></p>
+        <p>اجتماعيات: أ. منذر<br><a href="https://urlshort.app/EAZI8J" target="_blank">https://urlshort.app/EAZI8J</a></p>
+        <p>علوم: أ. غسان<br><a href="https://urlshort.app/I94UR1" target="_blank">https://urlshort.app/I94UR1</a></p>
+    </div>
+
+    <footer>
+        BY DEVELOPER OMER ABO AKER
+    </footer>
+
+    <script>
+        function showMessage() {
+            const message = document.getElementById('message');
+            message.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
